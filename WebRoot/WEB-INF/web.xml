@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>FoodKindComboListServlet</servlet-name>
+    <servlet-class>com.delicious.web.FoodKindComboListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodStyleComboListServlet</servlet-name>
+    <servlet-class>com.delicious.web.FoodStyleComboListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodSaveServlet</servlet-name>
+    <servlet-class>com.delicious.web.FoodSaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodListServlet</servlet-name>
+    <servlet-class>com.delicious.web.FoodListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodTasteComboListServlet</servlet-name>
+    <servlet-class>com.delicious.web.FoodTasteComboListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SellerSaveServlet</servlet-name>
+    <servlet-class>com.delicious.web.SellerSaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SellerListServlet</servlet-name>
+    <servlet-class>com.delicious.web.SellerListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SellerDeleteServlet</servlet-name>
+    <servlet-class>com.delicious.web.SellerDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShopComboListServlet</servlet-name>
+    <servlet-class>com.delicious.web.ShopComboListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FoodDeleteServlet</servlet-name>
+    <servlet-class>com.delicious.web.FoodDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.delicious.web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SysRecommendServlet</servlet-name>
+    <servlet-class>com.delicious.web.SysRecommendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.delicious.web.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RecommendListServlet</servlet-name>
+    <servlet-class>com.delicious.web.RecommendListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SysRecommendSaveServlet</servlet-name>
+    <servlet-class>com.delicious.web.SysRecommendSaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FoodMenuServlet</servlet-name>
+    <servlet-class>com.delicious.web.FoodMenuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.delicious.web.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PingFenServlet</servlet-name>
+    <servlet-class>com.delicious.web.PingFenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BlogServlet</servlet-name>
+    <servlet-class>com.delicious.web.BlogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AboutServlet</servlet-name>
+    <servlet-class>com.delicious.web.AboutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FoodSearchServlet</servlet-name>
+    <servlet-class>com.delicious.web.FoodSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.delicious.web.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.delicious.web.AdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>FoodKindComboListServlet</servlet-name>
+    <url-pattern>/foodKindComboList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodStyleComboListServlet</servlet-name>
+    <url-pattern>/foodStyleComboList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodSaveServlet</servlet-name>
+    <url-pattern>/foodSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodListServlet</servlet-name>
+    <url-pattern>/foodList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodTasteComboListServlet</servlet-name>
+    <url-pattern>/foodTasteComboList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SellerSaveServlet</servlet-name>
+    <url-pattern>/sellerSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SellerListServlet</servlet-name>
+    <url-pattern>/sellerList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SellerDeleteServlet</servlet-name>
+    <url-pattern>/sellerDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopComboListServlet</servlet-name>
+    <url-pattern>/shopComboList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodDeleteServlet</servlet-name>
+    <url-pattern>/foodDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysRecommendServlet</servlet-name>
+    <url-pattern>/sysRecommend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecommendListServlet</servlet-name>
+    <url-pattern>/recommendList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysRecommendSaveServlet</servlet-name>
+    <url-pattern>/sysRecommendSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodMenuServlet</servlet-name>
+    <url-pattern>/foodMenu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PingFenServlet</servlet-name>
+    <url-pattern>/pingFen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlogServlet</servlet-name>
+    <url-pattern>/Blog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AboutServlet</servlet-name>
+    <url-pattern>/About</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodSearchServlet</servlet-name>
+    <url-pattern>/foodSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
